@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 7db3c2ef7f4edf940991c167c9bb6498
-timeCreated: 1472398317
+timeCreated: 1472404270
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Back
     21300002: Atlas_1
-    21300004: Atlas_2
+    21300004: Floor
     21300006: Atlas_3
     21300008: Atlas_4
     21300010: Atlas_5
@@ -18,7 +18,7 @@ TextureImporter:
     21300022: Atlas_11
     21300024: Atlas_12
     21300026: Atlas_13
-    21300028: Atlas_14
+    21300028: TutorialImage
     21300030: Title
     21300032: Atlas_16
     21300034: Atlas_17
@@ -54,8 +54,8 @@ TextureImporter:
     21300094: Atlas_47
     21300096: Atlas_48
     21300098: Atlas_49
-    21300100: Atlas_50
-    21300102: Atlas_51
+    21300100: PipeTop
+    21300102: PipeBot
     21300104: Atlas_52
     21300106: Atlas_53
     21300108: Atlas_54
@@ -159,7 +159,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atlas_2
+      name: Floor
       rect:
         serializedVersion: 2
         x: 584
@@ -315,13 +315,13 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atlas_14
+      name: TutorialImage
       rect:
         serializedVersion: 2
-        x: 624
-        y: 818
-        width: 34
-        height: 24
+        x: 585
+        y: 741
+        width: 115
+        height: 102
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,110 +374,6 @@ TextureImporter:
         y: 828
         width: 38
         height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_19
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 814
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_20
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 810
-        width: 6
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_21
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 790
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_22
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 758
-        width: 42
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_23
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 772
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_24
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 744
-        width: 20
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_25
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 772
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atlas_26
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 758
-        width: 42
-        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,7 +679,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atlas_50
+      name: PipeTop
       rect:
         serializedVersion: 2
         x: 112
@@ -796,7 +692,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atlas_51
+      name: PipeBot
       rect:
         serializedVersion: 2
         x: 168
